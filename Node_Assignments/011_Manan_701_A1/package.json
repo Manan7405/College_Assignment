@@ -1,0 +1,23 @@
+{
+  "name": "011_manan_701_a1",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "server": "node Q7/server.js",
+    "test": "node Q12/index.js",
+    "extract": "node Q5/index.js",
+    "unlink-demo": "node Q6/index.js",
+    "fs-demo": "node Q9/index.js",
+    "globals-demo": "node Q10/index.js",
+    "package-demo": "node Q11/use-package.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "dependencies": {
+    "archiver": "^8.0.0",
+    "express": "^5.2.1"
+  }
+}

@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Q1 - Node.js AJAX Assignment</title>
+    <style>
+        * {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+        }
+
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background-color: #f4f7f6;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            min-height: 100vh;
+        }
+
+        .card {
+            background: #ffffff;
+            padding: 35px 30px;
+            border-radius: 12px;
+            box-shadow: 0 8px 24px rgba(0, 0, 0, 0.08);
+            text-align: center;
+            max-width: 420px;
+            width: 100%;
+        }
+
+        h2 {
+            color: #2c3e50;
+            margin-bottom: 12px;
+            font-size: 24px;
+        }
+
+        p {
+            color: #7f8c8d;
+            font-size: 14px;
+            line-height: 1.5;
+            margin-bottom: 25px;
+        }
+
+        .btn {
+            background-color: #3498db;
+            color: #ffffff;
+            border: none;
+            padding: 12px 24px;
+            font-size: 15px;
+            font-weight: 600;
+            border-radius: 6px;
+            cursor: pointer;
+            transition: background-color 0.2s ease, transform 0.1s ease;
+        }
+
+        .btn:hover {
+            background-color: #2980b9;
+        }
+
+        .btn:active {
+            transform: scale(0.98);
+        }
+
+        .response-container {
+            margin-top: 25px;
+            padding: 15px;
+            border-radius: 6px;
+            background-color: #e8f8f5;
+            border: 1px dashed #2ecc71;
+            min-height: 55px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+
+        #response-output {
+            color: #27ae60;
+            font-size: 18px;
+            font-weight: bold;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="card">
+        <h2>AJAX GET Request</h2>
+        <p>Click the button below to fetch a message from the <code>/gethello</code> endpoint asynchronously.</p>
+        
+        <button class="btn" onclick="fetchHelloMSG()" >Get Message</button>
+
+        <div class="response-container">
+            <span id="response-output">Awaiting request...</span>
+        </div>
+    </div>
+
+    <script>
+        function fetchHelloMSG() {
+            fetch('/gethello')
+            .then((res) => {
+                if (!res.ok) {
+                    throw new Error('Server returned status: ' + res.status);
+                }
+                return res.text();
+            })
+            .then((data) => {
+                const outPutData = document.getElementById('response-output');
+                outPutData.innerText = data;
+            })
+            .catch((err) => {
+                console.err("Request Failed : " ,err)
+                document.getElementById('response-output').innerText = 'Error loading data';
+            });
+        }
+    </script>
+
+</body>
+</html>

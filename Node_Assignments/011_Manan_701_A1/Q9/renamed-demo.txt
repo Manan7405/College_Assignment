@@ -1,0 +1,2 @@
+Hello Node.js fs module
+This line is appended.

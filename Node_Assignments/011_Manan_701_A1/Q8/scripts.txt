@@ -1,0 +1,10 @@
+Question 8 is completed in package.json.
+
+Scripts added:
+server
+test
+extract
+unlink-demo
+fs-demo
+globals-demo
+package-demo

@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Q2 - Static Resource Server</title>
+    <!-- Static CSS Resource Link -->
+    <link rel="stylesheet" href="/css/style.css">
+</head>
+<body>
+
+    <div class="container">
+        <h1>Static Resource Serving Demo</h1>
+        <p>This web page tests static assets delivered by Express (HTML, CSS, JS).</p>
+
+        <div class="card">
+            <h3>Static JavaScript Test</h3>
+            <p>Click below to execute a script loaded from <code>/js/app.js</code>:</p>
+            <button class="btn" onclick="testStaticJS()">Trigger Static JS</button>
+            <div id="status-log"></div>
+        </div>
+    </div>
+
+    <!-- Static JS Resource Link -->
+    <script src="/js/app.js"></script>
+</body>
+</html>
