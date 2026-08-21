@@ -1,0 +1,12 @@
+{
+  "name": "manan-useful-math-package",
+  "version": "1.0.0",
+  "description": "A simple useful math package for Node.js assignment.",
+  "main": "index.js",
+  "keywords": [
+    "math",
+    "assignment"
+  ],
+  "author": "Manan",
+  "license": "ISC"
+}
