@@ -1,0 +1,589 @@
+%PDF-1.4
+1 0 obj
+<< /Type /Catalog /Pages 2 0 R >>
+endobj
+2 0 obj
+<< /Type /Pages /Kids [6 0 R 8 0 R 10 0 R 12 0 R 14 0 R 16 0 R 18 0 R 20 0 R 22 0 R 24 0 R 26 0 R 28 0 R] /Count 12 >>
+endobj
+3 0 obj
+<< /Type /Font /Subtype /Type1 /BaseFont /Helvetica-Bold >>
+endobj
+4 0 obj
+<< /Type /Font /Subtype /Type1 /BaseFont /Courier >>
+endobj
+5 0 obj
+<< /Length 619 >>
+stream
+0.96 0.96 0.94 rg
+0 0 595 842 re f
+0.10 0.12 0.14 rg
+35 210 525 500 re f
+0.18 0.20 0.23 rg
+35 680 525 30 re f
+0.95 0.25 0.25 rg
+49 691 7 7 re f
+0.95 0.75 0.25 rg
+65 691 7 7 re f
+0.35 0.78 0.42 rg
+81 691 7 7 re f
+BT
+/F1 18 Tf
+0.05 0.06 0.07 rg
+45 760 Td (Q1 Output Screenshot) Tj
+ET
+BT
+/F2 10 Tf
+0.86 0.89 0.92 rg
+53 650 Td
+(PS> node Q1/server.js) Tj
+0 -16 Td
+(Server is Running on Port : 3000) Tj
+0 -16 Td
+() Tj
+0 -16 Td
+(PS> Invoke-WebRequest http://localhost:3000/gethello) Tj
+0 -16 Td
+(Hello MSD!) Tj
+0 -16 Td
+() Tj
+0 -16 Td
+(PS> Invoke-WebRequest http://localhost:3000/) Tj
+0 -16 Td
+(StatusCode: 200) Tj
+0 -16 Td
+ET
+endstream
+endobj
+6 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 595 842] /Resources << /Font << /F1 3 0 R /F2 4 0 R >> >> /Contents 5 0 R >>
+endobj
+7 0 obj
+<< /Length 731 >>
+stream
+0.96 0.96 0.94 rg
+0 0 595 842 re f
+0.10 0.12 0.14 rg
+35 210 525 500 re f
+0.18 0.20 0.23 rg
+35 680 525 30 re f
+0.95 0.25 0.25 rg
+49 691 7 7 re f
+0.95 0.75 0.25 rg
+65 691 7 7 re f
+0.35 0.78 0.42 rg
+81 691 7 7 re f
+BT
+/F1 18 Tf
+0.05 0.06 0.07 rg
+45 760 Td (Q2 Output Screenshot) Tj
+ET
+BT
+/F2 10 Tf
+0.86 0.89 0.92 rg
+53 650 Td
+(PS> node Q2/server.js) Tj
+0 -16 Td
+(Static file server running at http://localhost:3000) Tj
+0 -16 Td
+() Tj
+0 -16 Td
+(PS> Invoke-WebRequest http://localhost:3000/) Tj
+0 -16 Td
+(StatusCode: 200) Tj
+0 -16 Td
+(PS> Invoke-WebRequest http://localhost:3000/css/style.css) Tj
+0 -16 Td
+(StatusCode: 200) Tj
+0 -16 Td
+(PS> Invoke-WebRequest http://localhost:3000/js/app.js) Tj
+0 -16 Td
+(StatusCode: 200) Tj
+0 -16 Td
+ET
+endstream
+endobj
+8 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 595 842] /Resources << /Font << /F1 3 0 R /F2 4 0 R >> >> /Contents 7 0 R >>
+endobj
+9 0 obj
+<< /Length 840 >>
+stream
+0.96 0.96 0.94 rg
+0 0 595 842 re f
+0.10 0.12 0.14 rg
+35 210 525 500 re f
+0.18 0.20 0.23 rg
+35 680 525 30 re f
+0.95 0.25 0.25 rg
+49 691 7 7 re f
+0.95 0.75 0.25 rg
+65 691 7 7 re f
+0.35 0.78 0.42 rg
+81 691 7 7 re f
+BT
+/F1 18 Tf
+0.05 0.06 0.07 rg
+45 760 Td (Q3 Output Screenshot) Tj
+ET
+BT
+/F2 10 Tf
+0.86 0.89 0.92 rg
+53 650 Td
+(PS> node Q3/index.js) Tj
+0 -16 Td
+(==================================================) Tj
+0 -16 Td
+(         COLLEGE HELPDESK CHATBOT \(CLI\)) Tj
+0 -16 Td
+(==================================================) Tj
+0 -16 Td
+(Type your question below \(or type exit to quit\).) Tj
+0 -16 Td
+() Tj
+0 -16 Td
+(You:) Tj
+0 -16 Td
+(==================================================) Tj
+0 -16 Td
+( Thank you for using College Bot. Have a nice day!) Tj
+0 -16 Td
+(==================================================) Tj
+0 -16 Td
+ET
+endstream
+endobj
+10 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 595 842] /Resources << /Font << /F1 3 0 R /F2 4 0 R >> >> /Contents 9 0 R >>
+endobj
+11 0 obj
+<< /Length 905 >>
+stream
+0.96 0.96 0.94 rg
+0 0 595 842 re f
+0.10 0.12 0.14 rg
+35 210 525 500 re f
+0.18 0.20 0.23 rg
+35 680 525 30 re f
+0.95 0.25 0.25 rg
+49 691 7 7 re f
+0.95 0.75 0.25 rg
+65 691 7 7 re f
+0.35 0.78 0.42 rg
+81 691 7 7 re f
+BT
+/F1 18 Tf
+0.05 0.06 0.07 rg
+45 760 Td (Q4 Output Screenshot) Tj
+ET
+BT
+/F2 10 Tf
+0.86 0.89 0.92 rg
+53 650 Td
+(PS> node Q4/index.js) Tj
+0 -16 Td
+(==================================================) Tj
+0 -16 Td
+(            FOLDER ZIP COMPRESSOR TOOL) Tj
+0 -16 Td
+(==================================================) Tj
+0 -16 Td
+(Source Folder : Q4/sample_folder) Tj
+0 -16 Td
+(Target Zip    : Q4/sample_folder.zip) Tj
+0 -16 Td
+(Compressing... Please wait.) Tj
+0 -16 Td
+() Tj
+0 -16 Td
+(--------------------------------------------------) Tj
+0 -16 Td
+(SUCCESS: Zip file created successfully! Total size: 286 bytes.) Tj
+0 -16 Td
+(--------------------------------------------------) Tj
+0 -16 Td
+ET
+endstream
+endobj
+12 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 595 842] /Resources << /Font << /F1 3 0 R /F2 4 0 R >> >> /Contents 11 0 R >>
+endobj
+13 0 obj
+<< /Length 455 >>
+stream
+0.96 0.96 0.94 rg
+0 0 595 842 re f
+0.10 0.12 0.14 rg
+35 210 525 500 re f
+0.18 0.20 0.23 rg
+35 680 525 30 re f
+0.95 0.25 0.25 rg
+49 691 7 7 re f
+0.95 0.75 0.25 rg
+65 691 7 7 re f
+0.35 0.78 0.42 rg
+81 691 7 7 re f
+BT
+/F1 18 Tf
+0.05 0.06 0.07 rg
+45 760 Td (Q5 Output Screenshot) Tj
+ET
+BT
+/F2 10 Tf
+0.86 0.89 0.92 rg
+53 650 Td
+(PS> node Q5/index.js) Tj
+0 -16 Td
+(Zip file extracted successfully.) Tj
+0 -16 Td
+(Output folder: Q5/extracted_files) Tj
+0 -16 Td
+ET
+endstream
+endobj
+14 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 595 842] /Resources << /Font << /F1 3 0 R /F2 4 0 R >> >> /Contents 13 0 R >>
+endobj
+15 0 obj
+<< /Length 429 >>
+stream
+0.96 0.96 0.94 rg
+0 0 595 842 re f
+0.10 0.12 0.14 rg
+35 210 525 500 re f
+0.18 0.20 0.23 rg
+35 680 525 30 re f
+0.95 0.25 0.25 rg
+49 691 7 7 re f
+0.95 0.75 0.25 rg
+65 691 7 7 re f
+0.35 0.78 0.42 rg
+81 691 7 7 re f
+BT
+/F1 18 Tf
+0.05 0.06 0.07 rg
+45 760 Td (Q6 Output Screenshot) Tj
+ET
+BT
+/F2 10 Tf
+0.86 0.89 0.92 rg
+53 650 Td
+(PS> node Q6/index.js) Tj
+0 -16 Td
+(File deleted successfully using promisified fs.unlink.) Tj
+0 -16 Td
+ET
+endstream
+endobj
+16 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 595 842] /Resources << /Font << /F1 3 0 R /F2 4 0 R >> >> /Contents 15 0 R >>
+endobj
+17 0 obj
+<< /Length 654 >>
+stream
+0.96 0.96 0.94 rg
+0 0 595 842 re f
+0.10 0.12 0.14 rg
+35 210 525 500 re f
+0.18 0.20 0.23 rg
+35 680 525 30 re f
+0.95 0.25 0.25 rg
+49 691 7 7 re f
+0.95 0.75 0.25 rg
+65 691 7 7 re f
+0.35 0.78 0.42 rg
+81 691 7 7 re f
+BT
+/F1 18 Tf
+0.05 0.06 0.07 rg
+45 760 Td (Q7 Output Screenshot) Tj
+ET
+BT
+/F2 10 Tf
+0.86 0.89 0.92 rg
+53 650 Td
+(PS> node Q7/server.js) Tj
+0 -16 Td
+(Server running at http://localhost:3007) Tj
+0 -16 Td
+() Tj
+0 -16 Td
+(PS> Invoke-WebRequest http://localhost:3007/) Tj
+0 -16 Td
+(Open /google route to fetch Google page.) Tj
+0 -16 Td
+() Tj
+0 -16 Td
+(PS> Invoke-WebRequest http://localhost:3007/google) Tj
+0 -16 Td
+(StatusCode: 200) Tj
+0 -16 Td
+ET
+endstream
+endobj
+18 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 595 842] /Resources << /Font << /F1 3 0 R /F2 4 0 R >> >> /Contents 17 0 R >>
+endobj
+19 0 obj
+<< /Length 718 >>
+stream
+0.96 0.96 0.94 rg
+0 0 595 842 re f
+0.10 0.12 0.14 rg
+35 210 525 500 re f
+0.18 0.20 0.23 rg
+35 680 525 30 re f
+0.95 0.25 0.25 rg
+49 691 7 7 re f
+0.95 0.75 0.25 rg
+65 691 7 7 re f
+0.35 0.78 0.42 rg
+81 691 7 7 re f
+BT
+/F1 18 Tf
+0.05 0.06 0.07 rg
+45 760 Td (Q8 Output Screenshot) Tj
+ET
+BT
+/F2 10 Tf
+0.86 0.89 0.92 rg
+53 650 Td
+(PS> npm run) Tj
+0 -16 Td
+(Scripts available in package.json:) Tj
+0 -16 Td
+(server       node Q7/server.js) Tj
+0 -16 Td
+(test         node Q12/index.js) Tj
+0 -16 Td
+(extract      node Q5/index.js) Tj
+0 -16 Td
+(unlink-demo  node Q6/index.js) Tj
+0 -16 Td
+(fs-demo      node Q9/index.js) Tj
+0 -16 Td
+(globals-demo node Q10/index.js) Tj
+0 -16 Td
+(package-demo node Q11/use-package.js) Tj
+0 -16 Td
+ET
+endstream
+endobj
+20 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 595 842] /Resources << /Font << /F1 3 0 R /F2 4 0 R >> >> /Contents 19 0 R >>
+endobj
+21 0 obj
+<< /Length 750 >>
+stream
+0.96 0.96 0.94 rg
+0 0 595 842 re f
+0.10 0.12 0.14 rg
+35 210 525 500 re f
+0.18 0.20 0.23 rg
+35 680 525 30 re f
+0.95 0.25 0.25 rg
+49 691 7 7 re f
+0.95 0.75 0.25 rg
+65 691 7 7 re f
+0.35 0.78 0.42 rg
+81 691 7 7 re f
+BT
+/F1 18 Tf
+0.05 0.06 0.07 rg
+45 760 Td (Q9 Output Screenshot) Tj
+ET
+BT
+/F2 10 Tf
+0.86 0.89 0.92 rg
+53 650 Td
+(PS> node Q9/index.js) Tj
+0 -16 Td
+(File created.) Tj
+0 -16 Td
+(Data appended.) Tj
+0 -16 Td
+(File content:) Tj
+0 -16 Td
+(Hello Node.js fs module) Tj
+0 -16 Td
+(This line is appended.) Tj
+0 -16 Td
+() Tj
+0 -16 Td
+(File copied.) Tj
+0 -16 Td
+(Files in current folder: [ 'demo-copy.txt', 'demo.txt', 'index.js',) Tj
+0 -16 Td
+(  'renamed-demo.txt' ]) Tj
+0 -16 Td
+(File size: 47 bytes) Tj
+0 -16 Td
+(Copied file renamed.) Tj
+0 -16 Td
+ET
+endstream
+endobj
+22 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 595 842] /Resources << /Font << /F1 3 0 R /F2 4 0 R >> >> /Contents 21 0 R >>
+endobj
+23 0 obj
+<< /Length 700 >>
+stream
+0.96 0.96 0.94 rg
+0 0 595 842 re f
+0.10 0.12 0.14 rg
+35 210 525 500 re f
+0.18 0.20 0.23 rg
+35 680 525 30 re f
+0.95 0.25 0.25 rg
+49 691 7 7 re f
+0.95 0.75 0.25 rg
+65 691 7 7 re f
+0.35 0.78 0.42 rg
+81 691 7 7 re f
+BT
+/F1 18 Tf
+0.05 0.06 0.07 rg
+45 760 Td (Q10 Output Screenshot) Tj
+ET
+BT
+/F2 10 Tf
+0.86 0.89 0.92 rg
+53 650 Td
+(PS> node Q10/index.js hello node) Tj
+0 -16 Td
+(File name: Q10/index.js) Tj
+0 -16 Td
+(Directory name: Q10) Tj
+0 -16 Td
+(Node version: v22.19.0) Tj
+0 -16 Td
+(Platform: win32) Tj
+0 -16 Td
+(Current working directory: 011_Manan_701_A1) Tj
+0 -16 Td
+(Command line arguments: [ 'hello', 'node' ]) Tj
+0 -16 Td
+(This message is printed using setTimeout global function.) Tj
+0 -16 Td
+ET
+endstream
+endobj
+24 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 595 842] /Resources << /Font << /F1 3 0 R /F2 4 0 R >> >> /Contents 23 0 R >>
+endobj
+25 0 obj
+<< /Length 540 >>
+stream
+0.96 0.96 0.94 rg
+0 0 595 842 re f
+0.10 0.12 0.14 rg
+35 210 525 500 re f
+0.18 0.20 0.23 rg
+35 680 525 30 re f
+0.95 0.25 0.25 rg
+49 691 7 7 re f
+0.95 0.75 0.25 rg
+65 691 7 7 re f
+0.35 0.78 0.42 rg
+81 691 7 7 re f
+BT
+/F1 18 Tf
+0.05 0.06 0.07 rg
+45 760 Td (Q11 Output Screenshot) Tj
+ET
+BT
+/F2 10 Tf
+0.86 0.89 0.92 rg
+53 650 Td
+(PS> node Q11/use-package.js) Tj
+0 -16 Td
+(Addition: 15) Tj
+0 -16 Td
+(Square: 36) Tj
+0 -16 Td
+(Is 8 even? true) Tj
+0 -16 Td
+(To publish package: go inside my-useful-package folder and run npm publish.) Tj
+0 -16 Td
+ET
+endstream
+endobj
+26 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 595 842] /Resources << /Font << /F1 3 0 R /F2 4 0 R >> >> /Contents 25 0 R >>
+endobj
+27 0 obj
+<< /Length 551 >>
+stream
+0.96 0.96 0.94 rg
+0 0 595 842 re f
+0.10 0.12 0.14 rg
+35 210 525 500 re f
+0.18 0.20 0.23 rg
+35 680 525 30 re f
+0.95 0.25 0.25 rg
+49 691 7 7 re f
+0.95 0.75 0.25 rg
+65 691 7 7 re f
+0.35 0.78 0.42 rg
+81 691 7 7 re f
+BT
+/F1 18 Tf
+0.05 0.06 0.07 rg
+45 760 Td (Q12 Output Screenshot) Tj
+ET
+BT
+/F2 10 Tf
+0.86 0.89 0.92 rg
+53 650 Td
+(PS> node Q12/index.js) Tj
+0 -16 Td
+(1. User registered) Tj
+0 -16 Td
+(2. Welcome email sent to manan@example.com) Tj
+0 -16 Td
+(3. Profile created for manan@example.com) Tj
+0 -16 Td
+(All dependent tasks completed) Tj
+0 -16 Td
+ET
+endstream
+endobj
+28 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 595 842] /Resources << /Font << /F1 3 0 R /F2 4 0 R >> >> /Contents 27 0 R >>
+endobj
+xref
+0 29
+0000000000 65535 f 
+0000000009 00000 n 
+0000000058 00000 n 
+0000000192 00000 n 
+0000000267 00000 n 
+0000000335 00000 n 
+0000001005 00000 n 
+0000001141 00000 n 
+0000001923 00000 n 
+0000002059 00000 n 
+0000002950 00000 n 
+0000003087 00000 n 
+0000004044 00000 n 
+0000004182 00000 n 
+0000004689 00000 n 
+0000004827 00000 n 
+0000005308 00000 n 
+0000005446 00000 n 
+0000006152 00000 n 
+0000006290 00000 n 
+0000007060 00000 n 
+0000007198 00000 n 
+0000008000 00000 n 
+0000008138 00000 n 
+0000008890 00000 n 
+0000009028 00000 n 
+0000009620 00000 n 
+0000009758 00000 n 
+0000010361 00000 n 
+trailer
+<< /Size 29 /Root 1 0 R >>
+startxref
+10499
+%%EOF
