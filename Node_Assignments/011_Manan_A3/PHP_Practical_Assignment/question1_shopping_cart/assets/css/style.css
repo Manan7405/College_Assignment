@@ -1,0 +1,15 @@
+/* Small custom styles on top of Bootstrap */
+body { background: #f5f7fa; }
+
+/* product cards (user site) */
+.product-card img { width: 100%; height: 200px; object-fit: cover; background: #eee; }
+.product-card .card-title { font-size: 1.05rem; min-height: 2.6rem; }
+.product-price { color: #198754; font-weight: 600; font-size: 1.1rem; }
+
+/* admin + cart thumbnails */
+.admin-thumb { width: 60px; height: 60px; object-fit: cover; border-radius: 4px; border: 1px solid #ddd; }
+.admin-thumb-large { width: 150px; height: 150px; object-fit: cover; border-radius: 6px; border: 1px solid #ddd; }
+.cart-thumb { width: 50px; height: 50px; object-fit: cover; border-radius: 4px; }
+
+/* active category link */
+.category-link.active { font-weight: 600; }
