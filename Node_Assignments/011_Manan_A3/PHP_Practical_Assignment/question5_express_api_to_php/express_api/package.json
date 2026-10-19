@@ -1,0 +1,13 @@
+{
+  "name": "students-express-api",
+  "version": "1.0.0",
+  "description": "Question 5 - a small Express REST API that returns student records as JSON",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.21.2"
+  }
+}
